@@ -1,6 +1,6 @@
 import json
-import matplotlib
 import pandas as pd
+import matplotlib
 import matplotlib.pyplot as plt  
 
 with open("data.json", "r") as read_it: 
