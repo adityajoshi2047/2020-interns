@@ -1,9 +1,7 @@
 import json
 import matplotlib
-import pandas as pd
-import numpy as np 
+import pandas as pd 
 import matplotlib.pyplot as plt  
-from datetime import datetime
 
 with open("data.json", "r") as read_it: 
      data = json.load(read_it) 
@@ -36,6 +34,6 @@ ax1.plot(exrates[0],
 ax1.set_xlabel('Date')
 ax1.set_ylabel('value')
 ax1.legend()
-# plt.tight_layout()
+
 ax1.xaxis.set_major_locator(plt.MaxNLocator(20))
 plt.show()

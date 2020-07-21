@@ -1,9 +1,7 @@
 import json
 import matplotlib
 import pandas as pd
-import numpy as np 
 import matplotlib.pyplot as plt  
-from datetime import datetime
 
 with open("data.json", "r") as read_it: 
      data = json.load(read_it) 
